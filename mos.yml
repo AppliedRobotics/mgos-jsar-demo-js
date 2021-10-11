@@ -1,5 +1,5 @@
 author: 
-description: A test js app
+description: A simple demo JS app for mgos-jsar
 # arch: PLATFORM
 version: 1.0
 manifest_version: 2017-05-18
@@ -21,7 +21,6 @@ config_schema:
 
 
 libs:
-  - location: https://github.com/hold3r/mgos-dxlmaster
   - location: https://github.com/hold3r/mgos-jsar
 
 
@@ -32,7 +31,3 @@ conds:
         # Icrease app szie for ESP32
         APP_SLOT_SIZE: 0x190000
         MGOS_DEBUG_UART: 3
-
-
-
-
